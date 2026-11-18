@@ -33,4 +33,4 @@ outputs:
     description: "0 if response code returned within timeout, otherwise 1"
 runs:
   using: "docker"
-  image: "Dockerfile"
+  image: "docker://ghcr.io/step-security/wait_for_response:v2.0.0@sha256:b776b81b2ebb5aa752df8df838a4480c0b601570f97866fff3294efd79840b5a" #v2.0.0
